@@ -1,0 +1,20 @@
+@import "../../../../../custom/customer/globals.less";
+
+
+.myControlLibrary_Badge {
+  &:hover {
+    //start a animation
+    animation: myControlLibrary_Badge_rotate 2s linear infinite;
+  }
+}
+
+
+@keyframes myControlLibrary_Badge_rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
